@@ -1,0 +1,44 @@
+type BlockPack @collection(name:"blockpacks"){
+	name: String!
+    desc: String!
+    author:String!
+    version: String!
+    blocks: [Block!]!
+    official: Boolean!
+
+}
+
+type Block @embedded{
+    name: String!
+    types: [BlockType!]!
+} 
+
+type BlockType @embedded{
+    name: String!
+    color: String!
+    desc: String!
+    prompt: String!
+    starters:[String]!
+}
+
+type Theme @collection(name:"themes"){
+	name: String!
+    desc: String!
+    author:String!
+    version: String!
+    theme:String!
+    official: Boolean!
+}
+
+
+
+
+
+type Query{
+	blockPackByOffical(official: Boolean!):[BlockPack!]
+    themeByOffical(official: Boolean!):[Theme!]
+
+}
+
+
+

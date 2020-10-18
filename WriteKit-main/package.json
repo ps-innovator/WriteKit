@@ -1,0 +1,25 @@
+{
+  "name": "writekit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^3.1.2",
+    "axios": "^0.20.0",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.5",
+    "nuxt-buefy": "^0.4.3",
+    "vue-color": "^2.7.1",
+    "vue-global-events": "^1.2.1",
+    "vue-textarea-autosize": "^1.1.1",
+    "vuedraggable": "^2.24.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/localforage": "^1.1.0"
+  }
+}
