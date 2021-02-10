@@ -1,7 +1,7 @@
 # WriteKit
 GigaHacks 2020 10/4/20 - 10/11/20
 
-This project won the best group award in this Hackathon out of more than 100 submissions
+This project won the best group award in this Hackathon out of more than 100 submissions.
 
 A web-based document editor that makes the process of writing more approachable
 This project is styled with Vue
